@@ -168,7 +168,7 @@ footer {
 
   @media screen and (max-width: 790px) {
     .team-members .flexbox {
-      grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 19vw));
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 1fr));
       height: auto;
       justify-content: space-between;
     }
@@ -182,6 +182,11 @@ footer {
   }
 
   @media screen and (max-width: 563px) {
+    .team-members .flexbox {
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 0.4fr));
+      height: auto;
+      justify-content: space-between;
+    }
     .m-5 {
       margin-top: 0;
     }
@@ -194,10 +199,7 @@ footer {
 
   @media screen and (max-width: 369px) {
     .team-members .flexbox {
-      grid-template-columns: repeat(
-        auto-fill,
-        minmax(min(100%, 130px), 20.1vw)
-      );
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 130px), 1fr));
     }
 
     .member-flexbox .member-picture {
