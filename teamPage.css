@@ -6,7 +6,7 @@
 
 body {
   background: #fafafa;
-  width: 100%;
+  max-width: 100%;
 }
 
 h3 {
@@ -71,6 +71,7 @@ header .right p {
   height: auto;
   justify-content: space-between;
   column-gap: 2vw;
+  border: 2px solid red;
 }
 
 .flexbox .team-member {
