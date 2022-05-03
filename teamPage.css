@@ -144,7 +144,7 @@ footer {
 @media screen and (max-width: 1087px) {
   .team-members .flexbox {
     grid-template-columns: repeat(3, minmax(min(100%, 150px), 200px));
-    height: auto;
+    grid-auto-rows: auto;
   }
   p {
     font-family: "Poppins", sans-serif;
