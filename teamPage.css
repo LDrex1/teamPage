@@ -6,6 +6,7 @@
 
 body {
   background: #fafafa;
+  width: 100%;
 }
 
 h3 {
@@ -157,39 +158,38 @@ footer {
   }
   header,
   .team-members {
-    width: 90%;
-  }
-  .m-5 {
-    margin-top: 0;
+    width: 80%;
   }
 
-  .m-4,
-  .m-6 {
-    margin-top: calc(8vh + 4vw);
-  }
-}
-
-footer {
-  margin-top: 134px;
-}
-
-@media screen and (max-width: 713px) and (min-width: 524px) {
-  .m-4,
-  .m-6 {
-    margin-top: 0;
+  footer {
+    margin-top: 134px;
   }
 
-  .m-5 {
-    margin-top: calc(8vh + 4vw);
-  }
-}
-
-@media screen and (max-width: 341px) {
-  .team-members .flexbox {
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 99px), 20.1vw));
+  @media screen and (max-width: 592px) {
+    header,
+    .team-members {
+      width: 90%;
+    }
   }
 
-  .member-flexbox .member-picture {
-    min-width: 90.72px;
+  @media screen and (max-width: 523px) {
+    .m-5 {
+      margin-top: 0;
+    }
+
+    .m-4,
+    .m-6 {
+      margin-top: calc(8vh + 4vw);
+    }
+  }
+
+  @media screen and (max-width: 341px) {
+    .team-members .flexbox {
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 99px), 20.1vw));
+    }
+
+    .member-flexbox .member-picture {
+      min-width: 90.72px;
+    }
   }
 }
