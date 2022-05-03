@@ -69,7 +69,7 @@ header .right p {
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 20.1vw));
   align-items: flex-start;
   height: auto;
-  justify-content: space-around;
+  justify-content: space-between;
   column-gap: 2vw;
 }
 
@@ -185,11 +185,14 @@ footer {
 
   @media screen and (max-width: 341px) {
     .team-members .flexbox {
-      grid-template-columns: repeat(auto-fill, minmax(min(100%, 99px), 20.1vw));
+      grid-template-columns: repeat(
+        auto-fill,
+        minmax(min(100%, 110px), 20.1vw)
+      );
     }
 
     .member-flexbox .member-picture {
-      min-width: 90.72px;
+      min-width: 110.72px;
     }
   }
 }
