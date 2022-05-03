@@ -71,7 +71,6 @@ header .right p {
   height: auto;
   justify-content: space-between;
   column-gap: 2vw;
-  border: 2px solid red;
 }
 
 .flexbox .team-member {
