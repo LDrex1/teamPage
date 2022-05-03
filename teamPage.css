@@ -71,7 +71,7 @@ header .right p {
   height: auto;
   justify-content: space-between;
   column-gap: 2vw;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .flexbox .team-member {
@@ -166,14 +166,22 @@ footer {
     margin-top: 134px;
   }
 
-  @media screen and (max-width: 592px) {
+  @media screen and (max-width: 790px) {
+    .team-members .flexbox {
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 19vw));
+      height: auto;
+      justify-content: space-between;
+    }
+  }
+
+  @media screen and (max-width: 637px) {
     header,
     .team-members {
       width: 90%;
     }
   }
 
-  @media screen and (max-width: 523px) {
+  @media screen and (max-width: 563px) {
     .m-5 {
       margin-top: 0;
     }
@@ -184,11 +192,11 @@ footer {
     }
   }
 
-  @media screen and (max-width: 341px) {
+  @media screen and (max-width: 369px) {
     .team-members .flexbox {
       grid-template-columns: repeat(
         auto-fill,
-        minmax(min(100%, 110px), 20.1vw)
+        minmax(min(100%, 130px), 20.1vw)
       );
     }
 
