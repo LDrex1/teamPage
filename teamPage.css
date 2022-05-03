@@ -141,7 +141,7 @@ footer {
   color: #a9a9a9;
 }
 
-@media screen and (max-width: 1182px) {
+@media screen and (max-width: 1087px) {
   .team-members .flexbox {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 200px));
     height: auto;
