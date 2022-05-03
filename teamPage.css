@@ -94,7 +94,7 @@ header .right p {
 .member-flexbox .member-picture {
   overflow: hidden;
   min-width: 138.72px;
-  aspect-ratio: 1/1.45;
+  /* aspect-ratio: 1/1.45; */
   border-radius: 5px;
   transition: all ease-out 500ms;
 }
