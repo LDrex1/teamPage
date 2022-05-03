@@ -135,6 +135,7 @@ header .right p {
 
 footer {
   margin-top: 115px;
+  margin-bottom: 1vh;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   color: #a9a9a9;
@@ -143,7 +144,7 @@ footer {
 @media screen and (max-width: 1087px) {
   .team-members .flexbox {
     grid-template-columns: repeat(3, minmax(min(100%, 150px), 200px));
-    grid-auto-rows: auto;
+    grid-auto-rows: max-content;
   }
   p {
     font-family: "Poppins", sans-serif;
